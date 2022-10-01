@@ -147,6 +147,31 @@ li > a:hover {
     background-color: #f00;
 }
 
+.option_c > div { 
+    border-bottom: 1px solid #fff;
+}
+
+.option_c > div > a {
+    text-decoration: none;
+}
+
+.option_c > div > a:visited {
+    color: #fff;
+}
+
+
+.divbanner1 {
+    word-spacing: 50px;
+} 
+
+.divbanner2 {
+    word-spacing: 90px;
+}
+
+.divbanner3 {
+    word-spacing: 100px;
+}
+
 
 
 
