@@ -83,45 +83,70 @@ li > a:hover {
     
 }
 
-.div_options {
-    display: flex;
-    background-color: green;
-    height: 210px;
-}
-
-.div_options1 {
-    flex: 1;
-    background-color: aqua;
-}
-
-.div_options2 {
-    flex: 1;
-    background-color: beige;
-}
-
-.div_options3 {
-    flex: 1;
-    background-color: #727272;
-}
-
-
-
 .div_frases > h1 {
     font-size: 55px;
     color: #fff;
-    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.622) ;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.622);
     
 }
-
 
 .div_frases > h2 {
     font-size: 19px;
     color: #fff;
     margin-top: 20px;
-    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.548) ;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.548);
+}
+
+.div_options {
+    display: flex;
+    background-color: green;
+    height: 210px;
     
     
 }
+
+.div_options_interna{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    color: #fff;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.509);
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.div_options_interna > a {
+    border: 1px solid white;
+    color: white;
+   width: 120px;
+   padding: 5px;
+   text-align: center;
+   text-decoration: none;
+   text-shadow: none;
+}
+
+.div_options_interna > a:hover {
+    background-color: #fff;
+    color: #006dc4;
+}
+
+.option_a {
+    background-color: #00a3dc;
+}
+
+.option_b {
+    background-color: #006dc4;
+}
+
+.option_c {
+    background-color: #004091;
+}
+
+.box_options_c {
+    display: flex;
+    background-color: #f00;
+}
+
 
 
 
