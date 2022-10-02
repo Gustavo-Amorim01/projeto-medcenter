@@ -172,6 +172,55 @@ li > a:hover {
     word-spacing: 100px;
 }
 
+#principal {
+    display: flex;
+    height: 700px;
+    justify-content: center;
+}
+
+#principal > .container > section {
+    flex: 2;
+    
+}
+
+#principal > .container > aside {
+    flex: 1;
+}
+
+.widget_externo {
+    margin: 30px 0px 20px 0px;
+}
+
+.widget_externo {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.barrinha {
+    background-color: #00a3dc;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height: 2px;
+    width: 55px;
+}
+
+.conteudo_aside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 460px;
+}
+
+.conteudo_aside > div {
+    background-color: #00a3dc;;
+    height: 130px;
+    width: 130px;
+    border: 1px solid black;
+}
+
+
+
 
 
 
