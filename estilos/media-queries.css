@@ -1,7 +1,11 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 10px) and (max-width: 477px) {
+@media screen and (min-width: 320px) and (max-width: 477px) {
    
+    .logo {
+        padding: 0px 15px;
+    }
+
     ul, li {
         display: flex;
         flex-direction: column-reverse;
@@ -15,6 +19,7 @@
 
     .div_frases {
         max-width: 275px;
+        padding-left: 15px;
     }
 
     .div_frases > h1 {
@@ -38,15 +43,26 @@
     .container {
         flex-direction: column;
         width: 900px;
+        padding: 15px;
     }
 
     .div_options_interna p {
         margin: 6px;
     }
 
+    .widget, .footer_copy {
+        padding: 0px 15px;
+    }
+
+    
+
 }
 
 @media screen and (min-width: 478px) and (max-width: 766px) {
+
+    .logo {
+        padding: 0px 15px;
+    }
 
     ul, li {
         display: none;
@@ -54,6 +70,10 @@
 
     #banner {
         height: 1000px;
+    }
+
+    .div_frases {
+        padding-left: 15px;
     }
 
     .div_options {
@@ -67,6 +87,10 @@
 
     .div_options_interna p {
         margin: 6px;
+    }
+
+    .widget, .footer_copy {
+        padding: 0px 15px;
     }
 
 }
