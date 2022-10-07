@@ -7,14 +7,14 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-    margin-top: -1500x;
+body, html {
+    min-width: 50%vw;
 }
 
 header {
     justify-content: center;
     display: flex;
-    height: 120px;    
+    height: 120px;   
 }
 
 .container {
