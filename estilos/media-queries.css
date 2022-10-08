@@ -53,20 +53,21 @@
         padding: 20px;
     }
 
-
     .div_options_interna p {
         margin: 6px;
+    }
+
+    .footer_menu {
+        flex-direction: column;
+        height: 436px;
     }
 
     .widget, .footer_copy {
         padding: 0px 15px;
     }
-
-    
-
 }
 
-@media screen and (min-width: 478px) and (max-width: 766px) {
+@media screen and (min-width: 478px) and (max-width: 852px) {
 
     .logo {
         padding: 0px 15px;
@@ -94,15 +95,21 @@
     }
 
     .div_options_interna {
-        padding: 20px;
+        padding: 20px 90px;
     }
 
-    .div_options_interna p {
-        margin: 6px;
+    .conteudo_aside > div {
+        width: 150px;
+        height: 150px;
+        margin: 0px 5px;
+    }
+
+    .footer_menu {
+        flex-direction: column;
+        height: 436px;
     }
 
     .widget, .footer_copy {
         padding: 0px 15px;
     }
-
 }

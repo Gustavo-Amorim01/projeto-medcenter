@@ -36,6 +36,8 @@ header {
 ul, li {
     display: flex;
     align-items: center;
+    font-size: 14px;
+    padding: 0px;
 }
 
 nav a {
@@ -65,10 +67,8 @@ li > a:hover {
 
 .column {
     flex-direction: column;
-
-
-    
 }
+
 .div_frases {
     display: flex;
     flex:1;
