@@ -65,6 +65,10 @@
     .widget, .footer_copy {
         padding: 0px 15px;
     }
+
+    .widget, .footer_copy {
+        padding: 0px 15px;
+    }
 }
 
 @media screen and (min-width: 478px) and (max-width: 852px) {
@@ -101,7 +105,7 @@
     .conteudo_aside > div {
         width: 150px;
         height: 150px;
-        margin: 0px 5px;
+        margin: 0px 15px;
     }
 
     .footer_menu {
@@ -109,7 +113,17 @@
         height: 436px;
     }
 
+    .footer_area {
+
+        flex-direction: column;
+    }
+
     .widget, .footer_copy {
         padding: 0px 15px;
     }
+
+    header .container {
+        flex-direction: row;
+    }
+
 }
