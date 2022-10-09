@@ -26,6 +26,11 @@
         padding: 0px;
     }
 
+    ul, li {
+        display: block;
+        width: 100%;
+    }
+
     .container {
         flex-direction: column;
     }
@@ -106,6 +111,11 @@
         width: 100%;
         align-items: flex-start;
         padding: 0px;
+    }
+
+    ul, li {
+        display: block;
+        width: 100%;
     }
 
     .container {

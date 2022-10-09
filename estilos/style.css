@@ -27,6 +27,7 @@ header {
 .menu {
     display: flex;
     align-items: center;
+    transition: 5s;
 }
 
 .menu_icon {
@@ -63,7 +64,6 @@ nav a {
 li > a:hover {
     background-color: #39aae1;
     color: white;
-    transform: translate(-2px, -2px);
     font-weight: bold;
     border-radius: 6px;
 }
