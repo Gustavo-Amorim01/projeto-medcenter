@@ -8,6 +8,18 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-queries.css">
 
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menu_icon").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            })
+        }
+    </script>
+
 </head>
 <body>
     <header>        
@@ -18,9 +30,9 @@
             <div class="menu">
                 <nav>
                     <div class="menu_icon">
-                        <div class="linea"></div>
-                        <div class="linea"></div>
-                        <div class="linea"></div>
+                        <div class="mn_line"></div>
+                        <div class="mn_line"></div>
+                        <div class="mn_line"></div>
                     </div>
                     <ul>
                         <li><a href="#">HOME</a></li>
@@ -249,6 +261,5 @@
 
         </div>
     </footer>
-
 </body>
 </html>
