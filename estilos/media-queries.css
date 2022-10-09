@@ -74,6 +74,23 @@
         margin: 6px;
     }
 
+    .conteudo_aside {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        align-content: space-between;
+        height: auto;
+    }
+
+    .conteudo_aside > div {
+        background-color: #00a3dc;
+        height: 130px;
+        width: 100%;
+        margin: 5px;
+        border: 1px solid black;
+    }
+
     .footer_menu {
         flex-direction: column;
         height: 436px;
@@ -139,10 +156,21 @@
         padding: 20px 90px;
     }
 
+    .conteudo_aside {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        align-content: space-between;
+        height: auto;
+    }
+
     .conteudo_aside > div {
-        width: 150px;
-        height: 150px;
-        margin: 0px 15px;
+        background-color: #00a3dc;
+        height: 130px;
+        width: 100%;
+        margin: 5px;
+        border: 1px solid black;
     }
 
     .footer_menu {
